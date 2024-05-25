@@ -6,8 +6,8 @@ import { initialState } from "../utils/initialState";
 export const ItemContext = createContext({
   items: [],
   totalAmount: 0,
-  addItem: (item) => {},
-  removeItem: (id) => {},
+  addItem: () => {},
+  removeItem: () => {},
   removeAllItem: () => {},
 });
 
